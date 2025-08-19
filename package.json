@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "axios": "^1.11.0",
+    "bun": "^1.2.20",
+    "cheerio": "^1.1.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.9.2"
+  },
+  "name": "web-scrap-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NitinSirsath/web-scrap-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/NitinSirsath/web-scrap-express/issues"
+  },
+  "homepage": "https://github.com/NitinSirsath/web-scrap-express#readme"
+}
